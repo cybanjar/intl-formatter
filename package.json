@@ -1,0 +1,41 @@
+{
+  "name": "intl-number-formatter",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "prepublishOnly": "npm run test && npm run build",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "intl",
+    "number",
+    "formatter",
+    "i18n",
+    "internationalization",
+    "localization"
+  ],
+  "author": "Youssef Mansouri",
+  "license": "ISC",
+  "description": "A flexible number formatting library using Intl.NumberFormat with fallbacks",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.27.3",
+    "rollup-plugin-dts": "^6.1.1",
+    "ts-jest": "^29.2.5",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
+  }
+}
