@@ -23,6 +23,10 @@
   "author": "Youssef Mansouri",
   "license": "ISC",
   "description": "A flexible number formatting library using Intl.NumberFormat with fallbacks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssef-of-web/intl-number-formatter"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
