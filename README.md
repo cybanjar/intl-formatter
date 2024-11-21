@@ -8,15 +8,6 @@ A flexible and robust number formatting library that provides a consistent inter
 npm install intl-number-formatter
 ```
 
-## Usage
-
-```typescript
-import { formatNumber } from 'intl-number-formatter';
-
-const formattedNumber = formatNumber(1234567.89, { style: 'currency', currency: 'USD' });
-console.log(formattedNumber); // Output: $1,234,567.89
-```
-
 ## Basic Usage
 
 ```typescript
