@@ -1,4 +1,4 @@
-import { IntlFormatter } from './src/index';
+import { IntlFormatter } from './dist/index.js';
 
 const formatter = new IntlFormatter()
 
