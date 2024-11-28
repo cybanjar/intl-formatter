@@ -5,7 +5,7 @@ A flexible and robust number formatting library that provides a consistent inter
 ## Installation
 
 ```bash
-npm install intl-number-formatter
+npm install @cybanjar/intl-formatter
 ```
 
 ## Basic Usage

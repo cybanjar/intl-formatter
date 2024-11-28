@@ -1,5 +1,5 @@
 {
-  "name": "intl-number-formatter",
+  "name": "@cybanjar/intl-formatter",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -20,12 +20,12 @@
     "internationalization",
     "localization"
   ],
-  "author": "Youssef Mansouri",
+  "author": "Syamsul Amin",
   "license": "ISC",
   "description": "A flexible number formatting library using Intl.NumberFormat with fallbacks",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youssef-of-web/intl-number-formatter"
+    "url": "git+https://github.com/cybanjar/intl-formatter"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
