@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue Intl formatter | @cybanjar/intl-formatter</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@cybanjar/intl-formatter@1.0.2/dist/index.min.js"></script>
+</head>
+<body>
+  <div id="app">{{ message }}</div>
+  
+  <script>
+    const { createApp, ref } = Vue
+    const format = new IntlFormatter()
+
+    createApp({
+      setup() {
+        const message = ref(format.format(1234.56)) // Expected: "1,234.56"
+
+        return {
+          message
+        }
+      }
+    }).mount('#app')
+  </script>
+</body>
+</html>

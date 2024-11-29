@@ -16,6 +16,7 @@ import { IntlFormatter } from 'intl-formatter';
 const formatter = new IntlFormatter();
 // Basic number formatting
 formatter.format(1234.567); // "1,234.57"
+formatter.format(1234.56, { maximumFractionDigits: 0 }); // Expected: "1,235"
 // Currency formatting
 formatter.formatCurrency(1234.567, { currency: 'USD' }); // "$1,234.57"
 // Percentage formatting
